@@ -1,0 +1,77 @@
+body{
+	width: 95%;
+	background-color: transparent;
+	background-image: none;
+	padding: 1em;
+	height: 70%;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: normal;
+	font-family: "Muli", sans-serif;
+	overflow: hidden;
+}
+
+#hincima{
+	color: #d9271b;
+	font-size: 18pt;
+	font-family: "Muli", sans-serif;
+
+}
+.sectionimpostazioni{
+	text-align: center;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 15px;
+	padding: 1em;
+	position: relative;
+	width: 90%;
+	box-shadow: 1px 1px 1px 1px red;
+	margin-top: 1em;
+}
+
+
+
+.image-upload input{
+	display: none;
+	position: relative;
+}
+
+#camera{
+	width: 5%;
+}
+
+#camera:hover{
+	cursor: pointer;
+}
+
+.pulsante{
+	box-shadow: 2px 4px 3px #7C7C7C;
+}
+
+
+
+#fileuploadsubmit:disabled {
+    background: #dddddd;
+    cursor: default;
+    color: #006bac;
+}
+
+#register:disabled {
+    background: #dddddd;
+    cursor: default;
+    color: #006bac;
+}
+
+em{
+	color: red;
+}
+
+.titolo{
+	color: red;
+}
+
+#pulsanteelimina:disabled{
+	background: #dddddd;
+	cursor: default;
+	color: #006bac;
+}

@@ -1,0 +1,237 @@
+/*video.css*/
+@font-face {
+    font-family: FontPersonal;
+    src: url(../Font/codebold.otf);
+}
+
+html{
+    height: 100%;
+}
+
+body{
+	background-repeat: repeat;
+	background-position: center;
+	background-size: 120% 250% ;
+	 font-family: "Arial", sans-serif /*FontPersonal*/;
+	font-size: 10pt;
+	color: #006bac;  
+	background-color: white;
+	margin: 0;
+	height: 100%;
+  overflow-x: hidden;
+  border:1em;
+}
+
+/*Stile Container*/
+#container {
+    min-height: 100%;
+    height: auto !important;
+}
+
+h1{
+	font-size: 30pt;
+	text-align: center;
+	color: black;
+	font-family: "Arial", serif;
+}
+
+h2{
+	font-family: "Arial";
+	font-weight: bold;
+	color: #d9271b;
+	text-decoration: none;
+	font-size: 4em;
+}
+
+h3{
+	font-weight: bold;
+}
+
+h4{
+	font-size: 8pt;
+	font-family: inherit;
+}
+
+.NavBut #alogout{
+	color: red;
+}
+
+/*PulsanteLogin*/
+
+
+/*Logo/link Avis (riporta alla home)*/
+.logoHome{
+	width: 150px;
+	height: 50px;
+  margin-top: 1%;
+}
+
+
+/*STILE BARRA DI NAVIGAZIONE*/
+
+#LogoAlto{
+  text-align: center;
+  background-color: white;
+}
+
+#menu{
+  background-color: #006bac;
+  height: 3.7em;
+  width: 100%;
+}
+
+#menu ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+  text-align:center;
+
+}
+
+#menu ul li {
+	display:inline;
+  position: relative;
+}
+
+
+
+#menu li a {
+	color: white;
+	padding: 1em;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11pt;
+  display:inline-block;
+
+
+}
+
+#menu li a:hover{
+  padding-top: 0.8em;
+  color: #006bac ;
+  background-color: white;
+	border-bottom: solid  white;
+  border-top: solid  white ;
+}
+
+#menu li #navlogin:hover{
+  cursor: pointer;
+
+}
+
+
+/*Finestra di #Login inizialmente nascosta*/
+ #AppareLogin{
+	position: absolute;
+  margin-top: 3.2%;
+	overflow: hidden;
+	padding: 1em;
+	text-align: center;
+	background-color: white;
+	visibility: hidden;
+  border-top: solid #d9271b 0.1em;
+	width: 25%;
+	box-shadow: 0px 2px 3px #7C7C7C;
+	border-color: #d9271b;
+  z-index: +10;
+  margin-left: 30%;
+  border-radius: 15px;
+}
+
+#AppareLogin #chiudi{
+  color: red;
+  float: left;
+  cursor: pointer;
+}
+
+/*Stile dei pulsanti classe="pulsante"*/
+.pulsante {
+ outline: none;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ font: bold 12px Arial, Helvetica, sans-serif;
+ color: #fff;
+ padding: 10px 20px;
+ border: solid 1px #0076a3;
+ border-radius: 30px;
+ background: #0095cd;
+
+}
+
+.pulsante:hover{
+  color: #006bac;
+	background-color: white;
+}
+
+
+
+/*Stile del Footer*/
+footer{
+	text-align: right;
+	padding-bottom: 0em;
+	padding-top:2.5em;
+	width: 100%;
+	background-color: white;
+	border-top-style: solid;
+	border-color: #7C7C7C;
+	border-width: 0.1em;
+	position: relative;
+	bottom: 0%;
+	height: 50px;
+  clear: both;
+  margin-top: 1em;
+  overflow: hidden;
+
+}
+
+footer strong{
+	margin-right: 3em;
+  float: right;
+}
+
+footer em{
+  float: left;
+  margin-left: 3em;
+  font-weight: bold;
+  font-size: 11pt;
+}
+footer a{
+  margin-left: 1em;
+  color:black;
+}
+footer a:hover{
+  color: red;
+}
+
+
+
+p{
+	margin-top: 5%;
+}
+
+/* Stili per il campo di testo e per la textarea */
+input {
+    background: white;
+    border-radius: 10px;
+    padding-left: 0.5em;
+    font-size: 10pt;
+}
+
+textarea{
+  font-size: 10pt;
+}
+
+/*SPAN UTILIZZATI PER GLI ERRORI PHP*/
+span{
+	font-size: 10pt;
+	color: red;
+}
+
+select{
+  background: white;
+  border-radius: 10px;
+  padding-left: 0.5em;
+  font-size: 10pt;
+}

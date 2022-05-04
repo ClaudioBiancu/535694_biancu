@@ -1,0 +1,91 @@
+body{
+	height: 69%;
+	background-image: url("../Immagini/manicuore.jpg");
+	background-size: cover;
+	font-family: "Muli", serif /*FontPersonal*/;
+}
+
+#Aimmagine{
+	position: absolute;
+	left: 45%;
+	top: 2%;
+	width: 20%;
+	margin: 0 auto;
+}
+
+.navindex{
+	position: relative;
+	padding: 1em;
+	background-color: rgba(255,255,255,0.6);
+	width: 25%;
+	text-align: center;
+	margin-bottom: 2em;
+	overflow: auto;
+	margin-top: 5%;
+	height: 100% ;
+	font-size: 15pt;
+}
+
+#index1{
+	float: left;
+	left: 20%;
+
+
+}
+
+#index2{
+	float: right;
+	right: 20%;
+
+
+}
+
+h3{
+	color: #d9271b;
+	font-size: 23pt;
+}
+
+h4{
+	font-size: 12pt;
+}
+
+.pulsanteindex{
+	margin-top: 10%;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30pt;
+	color:  white;
+	padding: 10px 20px;
+	background: #0095cd;
+	border-radius: 50px;
+	border: solid 1px #0076a3;
+}
+
+.pulsanteindex:hover{
+	color: #d9271b;
+}
+
+article{
+	text-align: center;
+	font-style:  italic;
+	font-weight: lighter;
+}
+
+article em{
+	color: red;
+	font-weight: bold;
+}
+footer{
+	padding-bottom: 1em;
+	border: none;
+	color: black;
+	height: 20px;
+	bottom: 0;
+	position: fixed;
+	background-color: rgba(255,255,255,0.3);
+}
+
+footer a:hover{
+	color: white;
+}

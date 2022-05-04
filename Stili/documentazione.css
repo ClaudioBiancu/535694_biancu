@@ -1,0 +1,73 @@
+body{
+  background: #006bac;
+}
+#principale{
+  border: solid;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+  padding-bottom: 5%;
+  border-radius: 10px;
+}
+
+#LogoAlto{
+  background-color: white;
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 20pt;
+}
+h3{
+  color: #006bac;
+  margin: 0;
+  padding: 0;
+  font-size: 18pt;
+  margin-top: 3em;
+}
+
+#paragrafi{
+  color: black;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 14pt;
+  border-radius: 20px;
+  border: solid #006bac;
+  padding: 3em;
+
+}
+strong{
+  font-weight: bold;
+  color: red;
+}
+
+p{
+  margin-top: 1em;
+  font-weight: normal;
+  text-align: justify;
+}
+
+
+ ul {
+  text-align: justify;
+}
+
+ul ul{
+  font-size: 12pt;
+}
+
+ul li{
+  font-weight: bold;
+  color: red;
+}
+ul li li{
+  font-weight: normal;
+  color: black;
+}
+.listaPersonale li{
+  margin-top: 0.7em;
+}

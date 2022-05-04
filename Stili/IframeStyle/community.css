@@ -1,0 +1,124 @@
+body{
+	width: 100%;
+	background-color: transparent;
+	background-image: none;
+	height: 70%;
+	padding: 1em;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Muli", sans-serif;
+
+}
+#main{
+	text-align: center;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 15px;
+	padding: 1em;
+	position: relative;
+	width: 90%;
+	box-shadow: 1px 1px 1px 1px red;
+	margin-top: 1em;
+}
+
+#hincima{
+	color: #d9271b;
+	font-size: 18pt;
+	font-family: "Muli", sans-serif;
+
+}
+
+#desk{
+	width: 90%;
+	height: 500px;
+	border-radius: 10px 0px 0px 10px;
+	border-style: solid;
+	border-width: 1px;
+	text-align: left;
+	background-color: rgba(0,107,172,0.05);
+	/*background-color: rgba(0,107,172,0.2);*/
+}
+
+.postdesk{
+ background-color: rgba(0,107,172,0.2);
+ text-align: left;
+ box-shadow: 1px 1px 1px 1px red;
+ width: 50%;
+ clear: both;
+ margin: 1em;
+ padding: 1.5em;
+ border-radius: 10px;
+
+}
+
+.postdesk em{
+	float: right;
+	right: 0;
+	bottom: 0;
+}
+
+.postdesk b{
+	font-size: 15pt;
+	margin: 0 auto;
+}
+
+.postdesk p{
+	font-size: 12pt;
+	color: black;
+	font-weight: bold;
+}
+
+.immdesk{
+	padding: 0.2em;
+	background-color: white;
+	border-width: 0.01em;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+.likeclass{
+	cursor: pointer;
+	display:inline-block;
+}
+
+
+.LikeRed{
+	color: red;
+	background-color: white;
+	width: 20%;
+	margin-top: 0.5em;
+	border-radius: 30px;
+	padding: 0.3em;
+	text-align: center;
+	box-shadow: 1px 1px 1px 1px red;
+}
+.LikeRed:hover{
+	box-shadow: 1px 1px 1px 1px #006bac;
+	color: #006bac;
+	cursor: pointer;
+}
+
+.numeri{
+	width: 5%;
+	display: inline-block;
+}
+
+#Scrivi{
+	margin-left: 1em;
+	padding: 1em;
+}
+
+textarea{
+	resize: none;
+}
+
+#bodychat{
+	padding: 0;
+}
+
+.eliminasegnala img:hover{
+	cursor: pointer;
+}
+.eliminasegnala a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}

@@ -1,0 +1,102 @@
+body{
+	width: 95%;
+	background-color: transparent;
+	background-image: none;
+	height: 80%;
+	border-radius: 15px;
+	padding: 1em;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Muli", sans-serif;
+
+}
+
+.sectionaiuto{
+	height: 600px;
+	margin: 2em auto;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px 1px red;
+	text-align:center;
+	padding: 1em;
+
+}
+
+h3{
+	margin:0;
+	font-size: 18pt;
+}
+
+em{
+	font-weight: bold;
+	color: red;
+	margin:0;
+	font-size: 15pt;
+}
+
+ul{
+	list-style: none;
+	text-align: left;
+	overflow-y:scroll;
+	height: 170px;
+}
+ul li{
+	font-size: 10pt;
+	margin: 0.3em;
+	border-bottom: solid 0.1em blue;
+	border-top: solid 0.1em blue;
+}
+
+ul li:hover{
+	cursor: pointer;
+}
+ul li em{
+	font-size: 10pt;
+	font-weight: bold;
+	color:blue;
+}
+
+#AppareSegnalazione{
+	width: 70%;
+	background-color: rgba(255,255,255,1);
+	border-radius: 15px;
+/*	border: solid red;*/
+	position: fixed;
+	box-shadow: 1px 1px 1px 1px red;
+	top:13%;
+	left: 15%;
+	margin: 0 auto;
+	padding: 1em;
+	display: none;
+}
+#AppareSegnalazione h4{
+	font-size: 11pt;
+	text-align: left;
+	width: 100%;
+}
+
+.testoaiuto{
+	border: solid #006bac;
+	border-radius: 10px 0 0 10px;
+	min-height: 70px;
+	text-align: left;
+	padding:1em;
+
+}
+
+#chiudisegn{
+	float: left;
+	left: 0%;
+	cursor: pointer;
+	color: red;
+}
+
+#pulsanteaiuto:disabled{
+	background-color: grey;
+}
+
+.cambiaclasse{
+	font-size: 10pt;
+	 font-weight: lighter;
+	 color:inherit;
+}

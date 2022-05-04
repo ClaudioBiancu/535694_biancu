@@ -1,0 +1,96 @@
+body{
+	background-color: transparent;
+	background-image: none;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	width: 95%;
+	height: 70%;
+	font-family: "Muli", sans-serif;
+	font-weight: bold;
+}
+
+#libretto{
+	height: 400px;
+	margin: 1em auto;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px 1px red;
+	text-align:center;
+	padding: 0em;
+	padding-top: 1em;
+}
+
+ul{
+	list-style: none;
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+#firstul li{
+margin:1em;
+}
+
+ul li{
+	font-size: 16pt;
+}
+
+h1{
+	font-size: 24pt;
+	text-align: center;
+}
+
+
+em{
+	color: red;
+}
+
+#DivDonazioni{
+	height: 370px;
+	margin: 1em auto;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px 1px red;
+	text-align:center;
+	padding: 0.5em;
+	font-size: 16pt;
+
+	padding-bottom: 2em;
+}
+
+
+#listaDonazioni{
+		border-style: solid;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		height: 230px;
+		text-align: center;
+		width: 50%;
+		padding: 0;
+		border-width: 0.01em;
+		margin-bottom: 1em;
+}
+#listaDonazioni li{
+	width: 100%;
+	padding: 0.05em;
+	border-width: 0.1em;
+	background-color: white;
+	border-top: solid blue 0.1em;
+	border-bottom: solid blue 0.1em;
+	clear: both;
+	margin-bottom: 0.1em;
+	padding-left: 32%;
+	text-align: left;
+}
+
+
+.donazionis{
+	width: 50%;
+	float: left;
+}
+
+.donazionir{
+	width: 50%;
+	float: right;
+}

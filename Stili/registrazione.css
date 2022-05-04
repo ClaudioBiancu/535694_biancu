@@ -1,0 +1,65 @@
+body{
+	height: 75%;
+	width: 100%;
+	padding: 0;
+	background-color: white;
+	width: 100%;
+  background-image: url("../Immagini/sfondoprofilo.png");
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+}
+
+
+	.navreg{
+		position: relative;
+		padding: 1em;
+		background-color: rgba(0,107,172,0.15);
+		width: 25%;
+		text-align: center;
+		margin-bottom: 2em;
+		overflow: auto;
+		margin-top: 1%;
+		height: 450px;
+		font-size: 15pt;
+		border-radius: 10px;
+		box-shadow: 1px 1px 1px 1px red;
+	}
+
+#sezioneregistrazione1{
+		float: left;
+		left: 20%;
+	}
+
+	#sezioneregistrazione2{
+		float: right;
+		right: 20%;
+
+}
+
+
+
+#container{
+	padding-bottom: 4em;
+}
+
+
+select{
+	border-radius: 10px;
+	padding-left: 0.5em;
+}
+
+.spanrisposta{
+	color: #d9271b;
+	font-size: 10pt;
+}
+
+#register:disabled {
+    background: #dddddd;
+    cursor: default;
+    color: #006bac;
+}
+
+footer{
+	bottom: 0;
+	position: fixed;
+}

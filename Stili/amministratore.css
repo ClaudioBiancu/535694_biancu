@@ -1,0 +1,263 @@
+body{
+	background-image: url("../Immagini/sfondoprofilo.png");
+	background-size: 100% 340%;
+	background-color: rgba(0,0,0,0.1);
+	background-repeat: no-repeat;
+
+
+}
+
+#LogoAlto{
+  background-color: rgba(0,0,0,0.1)
+}
+
+
+#MainProfile{
+	font-family: "Muli", sans-serif;
+	margin-top: 4%;
+	text-align: center;
+	font-size: 15pt;
+	background-color: white;
+	border-radius: 15px;
+	clear:right;
+	padding: 1em;
+	margin-left: 5em;
+	margin-right: 5em;
+	box-shadow: 1px 1px 2px 2px red;
+	z-index: -15;
+}
+
+h2{
+	color: black;
+	font-size: 17pt;
+	font-family: inherit;
+}
+h3{
+	color: red;
+	font-size: 15pt;
+}
+#container{
+	text-align: center;
+}
+
+.sezioniAmm{
+	width: 80%;
+	margin: 3% auto;
+	padding: 1em;
+	border-style: solid;
+	display: none;
+}
+.push{
+    height: 50px;
+    clear: both;
+    overflow: hidden;
+}
+
+
+/*css barra selezione tool*/
+#sectiontool{
+	text-align: center;
+	min-height: 0%;
+
+}
+
+#ultool {
+	display: table-row;
+}
+#ultool li{
+	width: 15%;
+	height: 10%;
+	display: table-cell;
+	margin:1em;
+	top: 5%;
+	border-radius: 10px;
+	padding: 0.8em;
+}
+
+.pulsantetool:hover{
+	background-color: #006bac;
+	color: white;
+	cursor: pointer;
+}
+
+#ultool li em{
+	font-style: italic;
+	font-size: 10pt;
+	color: black;
+}
+
+/*Fine css barra tool*/
+
+/*CSS della sezione avvisi*/
+textarea{
+	padding: 0.5em;
+	background-color: white;
+	border-radius: 15px;
+	border-color: #006bac;
+	resize: none;
+	width: 98%;
+}
+/*fine CSS della sezione avvisi*/
+
+/*css Donazione*/
+#listaDonatori{
+	list-style: none;
+	height: 450px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+	margin-top:2em;
+	padding: 1em;
+}
+
+input[type='checkbox']{
+	visibility: hidden;
+}
+
+input[type='checkbox']:checked + label{
+	background-color: #006bac;
+	color:white;
+}
+
+#buttonDonazione{
+	margin-top: 5em;
+}
+
+#buttonDonazione:disabled{
+	background-color: grey;
+	color:white;
+}
+/*css Donazione FINE*/
+
+/*css Ricerca per Gruppi*/
+
+#listagruppi{
+overflow-y:scroll;
+visibility: hidden;
+height: 200px;
+}
+
+#ullistagruppi{
+	list-style: none;
+}
+/*Fine css Ricerca per Gruppo*/
+
+/*Css Segnalazioni*/
+#listaSegnalazioni{
+	list-style: none;
+	height: 300px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	margin-top:1em;
+	padding: 1em;
+}
+
+.segnalazione{
+	font-size: 15pt;
+	font-family: "Muli", sans-serif;
+	margin: 0.3em;
+}
+
+.segnalazione:hover{
+	color:red;
+	cursor: pointer;
+}
+
+
+
+#AppareSegnalazione{
+	width: 50%;
+	background-color: rgba(255,255,255,1);
+	border-radius: 15px;
+	border: solid red;
+	position: fixed;
+	top:10%;
+	left: 25%;
+	margin: 0 auto;
+	padding: 1em;
+	display: none;
+}
+#AppareSegnalazione h4{
+	font-size: 11pt;
+	text-align: left;
+	width: 100%;
+}
+
+#TestoSegnalazione{
+	border: solid #006bac;
+	border-radius: 10px 0 0 10px;
+	min-height: 150px;
+	overflow-y: scroll;
+	text-align: left;
+	padding:1em;
+
+}
+
+#chiudisegn{
+	float: left;
+	left: 0%;
+	cursor: pointer;
+	color: red;
+}
+/*Fine css Segnalazioni*/
+
+/*css Aiuto*/
+#listaMessaggi{
+	list-style: none;
+	height: 300px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	margin-top:1em;
+	padding: 1em;
+}
+
+#AppareMessaggio{
+	width: 50%;
+	background-color: rgba(255,255,255,1);
+	border-radius: 15px;
+	border: solid red;
+	position: fixed;
+	top:7%;
+	left: 25%;
+	margin: 0 auto;
+	padding: 1em;
+	display: none;
+	z-index: +11;
+}
+#AppareMessaggio h4{
+	font-size: 11pt;
+	text-align: left;
+	width: 100%;
+}
+
+#TestoUtente{
+	border: solid #006bac;
+	border-radius: 10px 0 0 10px;
+	min-height: 150px;
+	overflow-y: scroll;
+	text-align: left;
+	padding:1em;
+
+}
+
+#chiudisegn1{
+	float: left;
+	left: 0%;
+	cursor: pointer;
+	color: red;
+}
+
+#InviaRisposta:disabled{
+	background-color: grey;
+}
+
+
+/*Fine css aiuto*/

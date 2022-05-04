@@ -1,0 +1,112 @@
+body{
+	width: 100%;
+  background-image: url("../Immagini/sfondoprofilo.png");
+	background-size: 100% 300%;
+	background-repeat: no-repeat;
+}
+
+#LogoAlto{
+  background-color: rgba(0,0,0,0.1)
+}
+
+
+#MainProfile{
+  font-family: "Muli", serif /*FontPersonal*/;
+  font-weight: lighter;
+	text-align: center;
+	font-size: 15pt;
+	clear:right;
+	top: 1%;
+	margin-top: 2%;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	height: 800px;
+}
+
+
+#h3Benvenuto{
+	float: right;
+	width: 70%;
+	margin: 0.3em;
+	color:black;
+	font-size: 21pt;
+}
+
+
+aside{
+	float: left;
+	width: 20%;
+	padding: 1em;
+	height: 700px;
+
+}
+
+.imm{
+	padding: 0.2em;
+	background-color: white;
+	border-width: 0.03em;
+	border-radius: 100%;
+	box-shadow: 1px 3px 2px red;
+}
+
+#NomeCognome{
+	color: black;
+}
+
+
+
+#asideprofilo{
+	list-style: none;
+	font-family: inherit;
+	margin: 1em auto;
+	background-color: white;
+	box-shadow: 2px 4px 3px red;
+	text-align:center;
+	padding: 0.3em;
+
+}
+
+#asideprofilo a{
+	color: #006bac;
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+#asideprofilo a:hover{
+	color: #d9271b;
+	cursor: pointer;
+	background-color: rgba(135,206,235,0.3);
+}
+
+#asideprofilo a:visited{
+	color: yellow;
+}
+#main{
+	width: 70%;
+	margin-top: 0.5em;
+	float: right;
+	height: 1000px;
+	padding: 1em;
+}
+
+iframe{
+	width: 100%;
+	border-style: none;
+	overflow: auto;
+
+}
+
+.push{
+    height: 100px;
+    clear: both;
+    overflow: hidden;
+
+}
+
+footer{
+	bottom: 0;
+	margin-top: 1em;
+}
